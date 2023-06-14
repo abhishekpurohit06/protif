@@ -1,13 +1,15 @@
-
-function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
+function toggleNav() {
+    var element = document.getElementById("mySidebar");
+    if (element.style.width == "250px") {
+        document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-  }
+    } else {
+        document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    }
+}
+
+
 
   function openNav2() {
     document.getElementById("mySidebar2").style.width = "250px";
