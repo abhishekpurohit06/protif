@@ -14,6 +14,7 @@ function toggleNav2() {
     if (element.style.width == "250px") {
         document.getElementById("mySidebar2").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
+        console.log("Hello World");
     } else {
         document.getElementById("mySidebar2").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
